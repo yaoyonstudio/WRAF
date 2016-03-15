@@ -1,9 +1,8 @@
 angular.module('wraf', ['ngResource', 'ngRoute', 'ngSanitize', 'wraf.controllers', 'wraf.services'])
 
 .constant('siteInfo', {
-    wpApiUrl: 'http://www.fymedia.tk/wp-json/wp/v2',
-		requestUrl:'http://www.fymedia.tk/api',
-    siteTitle: '锋悦传媒',
+    wpApiUrl: 'http://www.example.com/wp-json/wp/v2',
+    siteTitle: '网站标题',
 })
 
 .config(function($routeProvider, $locationProvider) {
