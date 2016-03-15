@@ -1,0 +1,23 @@
+<header class="ui-header ui-header-stable ui-border-b">
+	<i class="ui-icon-return" onclick="history.back()"></i><h1>{{title}}</h1><a href="/WRAF/" title="锋悦传媒"><button class="ui-btn">首页</button></a>
+</header>
+
+<section class="ui-container ui-center">
+    <ul class="ui-list ui-list-link ui-border-tb">
+			<li class="ui-border-t" ng-repeat="news in newsList">
+				<div class="ui-list-img" class="newsimg" style="background: url(img/placeholder.jpg) no-repeat;">
+					<a href="/WRAF/news/{{news.id}}" ng-if="news.thumbnailurl"><img ng-src="{{news.thumbnailurl}}" alt="{{news.title}}" style="width:100px;height: 68px;" /></a>
+				</div>
+				<div class="ui-list-info">
+					<a href="/WRAF/news/{{news.id}}" ng-bind-html="news.title" class="postTitle"></a>
+				</div>
+			</li>
+		</ul>
+
+		<div class="ui-btn-wrap" style="margin-bottom: 60px;padding-bottom:60px;">
+	    <button class="ui-btn-lg ui-btn-danger" ng-click="loadMore()" ng-show="hasData">
+	        加载更多
+	    </button>
+		</div>
+
+</section>

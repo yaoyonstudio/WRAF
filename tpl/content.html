@@ -1,0 +1,11 @@
+<header class="ui-header ui-header-stable ui-border-b">
+	<i class="ui-icon-return" onclick="history.back()"></i><h1>{{title}}</h1><a href="/WRAF/" title="锋悦传媒"><button class="ui-btn">首页</button></a>
+</header>
+<section class="ui-container ui-center">
+	<h2 class="postContentTitle" ng-bind-html="post.title"></h2>
+	<div ng-if="featuredImageUrl" class="postFeaturedImg">
+	    <img ng-src="{{featuredImageUrl}}" alt="{{post.title}}" />
+	</div>
+
+	<div class="postContent" ng-bind-html="post.content"></div>
+</section>

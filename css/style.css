@@ -1,0 +1,48 @@
+
+h1,h2,h3{font-family: '微软雅黑';text-align: center;}
+h1{font-weight: 700;color:#dd3333;}
+h2{margin:0px auto;margin-top:10px;font-size:20px;line-height: 36px;}
+
+.footerMenu{margin-top:12px;font-size:12px !important;}
+
+
+
+.serviceFrame{padding:0 5%;}
+.service li{margin-top:10px;}
+.service p{font-size: 14px;}
+.service img{width:100%;max-width:77px;border-radius: 80px;margin-bottom:4px;}
+
+.aeop {padding:0 10px;}
+.aeop p{font-size: 12px;line-height: 20px;margin-bottom: 10px;}
+.aeop span{font-weight: 600;color:#dd3333;font-size: 14px;}
+.aeop h3 span{font-size: 24px;color:#dd3333;font-weight: 700;}
+.aeopItem{margin-bottom:10px;}
+.aeopTitle{display: inline-block;width:80%;border:1px #dd3333 solid;border-radius: 4px;padding:4px;text-align: center;margin-right: 8px;}
+
+.contactTxt{margin-top:10px;font-family: '微软雅黑';}
+.contactTxt h3{font-weight: 700px;font-size: 18px;}
+.contactTxt p{font-size: 14px;text-align: left;line-height: 24px;}
+
+/*****************************************************************************/
+a{color:#555;}
+
+.newsimg{display: block;width:100px;height:68px;background-color: #ddd;}
+.postTitle{font-size:14px;color:#333;margin-top:0px;display: block;text-align: left;}
+
+.about,.services{padding:16px;color:#555;font-size:14px;line-height: 24px;}
+.about p,.services p,.contact p{margin-bottom:20px;}
+.about img{width:100%;height: auto;}
+
+.services img{margin:0 auto;display: block;text-align: center;}
+
+
+
+
+.postContentTitle{font-size:16px;text-align: center;}
+.postFeaturedImg{margin-top:16px;padding:16px;}
+.postContent{font-size: 14px;padding:16px;text-align: left;margin-bottom: 70px;}
+.postContent p{margin-bottom: 16px; color:#555;}
+.postContent img,.postFeaturedImg img{width: 100%;height: auto;}
+
+.mapcontact{width:100%;margin:0 auto;text-align: center;position: absolute;bottom:56px;padding:10px 0;background-color: #333;color:#fff;z-index: 100;}
+.mapcontact p{font-size: 0.8em;}
